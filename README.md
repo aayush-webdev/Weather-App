@@ -1,16 +1,60 @@
-# React + Vite
+🌦️ Weather App — Real-Time Weather Forecast (Vite + JavaScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fast weather application built using Vite, JavaScript, and OpenWeather API.
+It shows real-time weather details like temperature, location, humidity, wind speed, and more — all inside a clean, modern UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔ Real-time weather data
+✔ Search any city worldwide
+✔ Auto-detect your current location
+✔ Clean and responsive UI
+✔ Fast loading (because of Vite)
+✔ Dynamic weather icons based on weather condition
+✔ Error handling (wrong city name, no network, etc.)
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite (for fast development)
 
-## Expanding the ESLint configuration
+JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+HTML / CSS
+
+OpenWeather API
+
+Responsive UI
+
+📁 Project Structure
+weather-app/
+│
+├── public/
+│   ├── icons/
+│   ├── clouds.png
+│   ├── my-location.svg
+│   └── search.svg
+│
+├── src/
+│   └── (all JS files & logic)
+│
+├── .env
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── .gitignore
+
+🌍 API Used
+
+This project uses OpenWeatherMap API for real-time weather data.
+
+API Docs → https://openweathermap.org
+
+🧑‍💻 Author
+
+Developed with ❤️ by Aayush Sharma
+Learning • Building • Growing
+
+⭐ If you like this project
+
+Don’t forget to star the repo ⭐ and share feedback!
