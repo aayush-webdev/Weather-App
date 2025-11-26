@@ -21,12 +21,12 @@ const SearchSection = ({ getWeatherDetails,searchInputRef }) => {
   return (
     <div className="search-section">
         <form action="#" className="search-form" onSubmit={handleCitySearch}>
-          {/* <button>hello</button> */}
+          
           <span className="material-symbols-outlined">search</span>
           <input type="search" placeholder="Enter a City Name" ref={searchInputRef} className="search-input" required />
         </form>
         <button className="location-button" onClick={handleLcationSearch}>
-          <img src="public/my-location.svg" alt="" />
+          <img src="/my-location.svg" alt="" />
         </button>
       </div>
   );
