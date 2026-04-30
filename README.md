@@ -3,7 +3,7 @@
 A simple and fast weather application built using Vite, JavaScript, and OpenWeather API.
 It shows real-time weather details like temperature, location, humidity, wind speed, and more — all inside a clean, modern UI.
 
-🚀 Features
+🚀 Featuresss
 
 ✔ Real-time weather data
 ✔ Search any city worldwide
